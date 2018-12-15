@@ -69,12 +69,12 @@
                                 <timeoutSec>60</timeoutSec>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
+                                <contextUrl>http://ec2-3-0-19-241.ap-southeast-1.compute.amazonaws.com:8081/artifactory</contextUrl>
                                 <username>${username}</username>
                                 <password>${password}</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
-                                <repoKey>libs-release-local</repoKey>
-                                <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                                <repoKey>maven-example</repoKey>
+                                <snapshotRepoKey>maven-example</snapshotRepoKey>
                             </publisher>
                             <buildInfo>
                                 <buildName>plugin-demo</buildName>
